@@ -1,0 +1,46 @@
+﻿<Window x:Class="Agents.Edit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Agents"
+        mc:Ignorable="d"
+        Title="Edit" Height="250" Width="550">
+    <Grid>
+        <TextBlock 
+            HorizontalAlignment="Center" 
+            TextWrapping="Wrap" 
+            Text="Редактирование агента"
+            FontSize="30"
+            VerticalAlignment="Top"/>
+
+        <TextBlock HorizontalAlignment="Left"  
+                   VerticalAlignment="Center"
+                   Margin="10,70,0,70"
+                   TextWrapping="Wrap" 
+                   Text="Напишите ID агента, которого хотите отредактировать:"
+                   FontSize="15" Width="390"
+                   />
+        <TextBox HorizontalAlignment="Right" Height="24" Margin="0,98,17,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button 
+            Content="Редактировать" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Bottom"
+            FontSize="15"
+            Width="110"
+            Height="40"
+            Margin="0 0 150 10"
+            Click="Button_Click_1"/>
+
+        <Button 
+            Content="Назад" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Bottom"
+            FontSize="15"
+            Width="110"
+            Height="40"
+            Margin="150 0 0 10"
+            Click="Button_Click"/>
+        
+    </Grid>
+</Window>
